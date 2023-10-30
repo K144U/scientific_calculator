@@ -6,10 +6,9 @@ int main ()
 float a,b,PI; 
 int c; 
 cout<<endl; 
-cout<<"******************** Calculator ******************\n"; 
-cout<<"---------------------------------------------------\n"; 
-cout<<"Operations\t"<<"\tTrigonometric Functions"<<"\t\tLogarithmic Functions\n"; 
-cout<<"------------------------------------------------\n"; 
+cout<<"Calculator\n"; 
+cout<<"\t\tLogarithmic Functions\t"<<"\tTrigonometric Functions"<<"Operations\n"; 
+cout<<"___________________________________________________\n"; 
 cout<<"1: Division\t\t"<<"7: Sin\t\t"<<"\t\t13: Log"<<endl; 
 cout<<"2: Multiplication\t"<<"8: Cos\t\t"<<"\t\t14: Log with base 10"<<endl; 
 cout<<"3: Subtraction\t\t"<<"9: Tan\t\t"<<endl; 
